@@ -17,14 +17,14 @@ import java.util.Scanner
  * */
 
 internal class Ruler(
-    val metters: Double
+    val meters: Double
 ){
-    var kilometers: Double =  metters / 1000
-    var hectometers: Double = metters / 100
-    var decameters: Double =  metters / 10
-    var decimeters: Double =  metters * 10
-    var centimeters: Double = metters * 100
-    var milimeters: Double =  metters * 1000
+    private var kilometers: Double =  meters / 1000
+    private var hectometers: Double = meters / 100
+    private var decameters: Double =  meters / 10
+    private var decimeters: Double =  meters * 10
+    private var centimeters: Double = meters * 100
+    private var milimeters: Double =  meters * 1000
 
     fun toKilometers(): String {
         return "${kilometers}Km"
@@ -57,7 +57,7 @@ internal fun exercise8(){
     val distance = scanner.nextDouble()
     val ruler = Ruler(distance)
     print("""
-    A distância de ${ruler.metters}m corresponde a:
+    A distância de ${ruler.meters}m corresponde a:
     ${ruler.toKilometers()}   ${ruler.toHectometers()}     ${ruler.toDecameters()}
     ${ruler.toDecimeters()}   ${ruler.toCentimeters()}   ${ruler.toMilimeters()}
     """.trimIndent())
