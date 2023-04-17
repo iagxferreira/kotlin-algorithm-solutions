@@ -10,7 +10,6 @@ import java.util.*
  * Digite outro valor: 5
  * A soma entre 8 e 5 é igual a 13.
  * */
-
 internal fun exercise4(){
     val scanner = Scanner(System.`in`)
     print("Send a value: ")

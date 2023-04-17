@@ -13,7 +13,6 @@ import java.util.*
  * Salário: 1850,45
  * O funcionário Maria do Carmo tem um salário de R$1850,45 em Junho.
  */
-
 internal class Employee(
     val name: String,
     val wage: BigDecimal
@@ -22,16 +21,16 @@ internal class Employee(
 internal fun exercise3(){
     val scanner = Scanner(System.`in`)
 
-    print("Employee name: ")
+    print("Name: ")
     val name = scanner.nextLine()
-    print("Employee wage: ")
+    print("Wage: ")
     val wage = scanner.nextBigDecimal()
-
     val employee = Employee(name, wage)
 
-    val format = NumberFormat.getCurrencyInstance()
-    format.maximumFractionDigits = 2
-    format.currency = Currency.getInstance("EUR")
+    val format = NumberFormat.getCurrencyInstance().apply {
+        maximumFractionDigits = 2
+        currency = Currency.getInstance("EUR")
+    }
 
     val formattedWage = format.format(employee.wage)
 

@@ -15,7 +15,6 @@ import java.util.Scanner
  * 18572.0cm
  * 185720.0mm
  * */
-
 internal class Ruler(
     val meters: Double
 ){

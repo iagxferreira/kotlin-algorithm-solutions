@@ -8,8 +8,6 @@ import java.util.*
  * Qual é o seu nome? João da Silva
  * Olá João da Silva, é um prazer te conhecer!
  * */
-
-
 internal fun exercise2(){
     val scanner = Scanner(System.`in`)
     print("What's your name? ")

@@ -9,7 +9,6 @@ import java.util.*
  * Ex:
 
  * */
-
 internal fun exercise7(){
     val scanner = Scanner(System.`in`)
     print("Digite um número: ")

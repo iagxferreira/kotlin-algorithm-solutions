@@ -8,7 +8,6 @@ import java.util.Scanner
  * quantidade de dias pelos quais ele foi alugado. Calcule o preço total a pagar,
  * sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado.
  * */
-
 internal fun exercise14(){
     val scanner = Scanner(System.`in`)
     print("Write the amount of kilometers you have done: ")
