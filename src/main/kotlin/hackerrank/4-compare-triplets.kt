@@ -1,3 +1,5 @@
+package kotlin.hackerrank
+
 /**
  *  crie uma função que receba dois arrays a e compare seus valores, atribuindo seus resultados a um terceiro array
  *  sendo a posição 0 do array contando pontos para a quantidade de numeros maiores no primeiro

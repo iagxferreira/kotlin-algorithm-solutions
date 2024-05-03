@@ -1,4 +1,4 @@
-import kotlin.math.abs
+package kotlin.hackerrank
 
 fun diagonalDifference(array: Array<Array<Int>>): Int {
     var sumLeftToRight = 0;

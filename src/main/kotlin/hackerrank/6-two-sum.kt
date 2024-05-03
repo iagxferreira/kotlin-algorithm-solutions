@@ -1,4 +1,4 @@
-/*
+package kotlin.hackerrank/*
 * Dado um array de inteiros e um target, retorne os indices de dois numeros que adicionados resultem no target.
 * */
 
