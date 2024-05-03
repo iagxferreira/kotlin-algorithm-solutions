@@ -1,2 +1,2 @@
-# algorithm-exercises
-Repositório para a resolução de algoritmos.
+# Kotlin Playground
+Repositório para acumulo de conteúdo sobre Kotlin.
