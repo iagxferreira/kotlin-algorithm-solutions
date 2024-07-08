@@ -1,6 +1,6 @@
 package basics
 
-import java.util.Scanner
+import java.util.*
 
 /**
  * Faça um algoritmo que leia um determinado ano e mostre se ele é ou não BISSEXTO.

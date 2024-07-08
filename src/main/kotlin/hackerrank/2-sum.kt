@@ -1,4 +1,4 @@
-package kotlin.hackerrank
+package hackerrank
 
 // crie uma função que some dois inteiros
 fun sum(a: Int, b: Int): Int {

@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test
-import kotlin.hackerrank.compareTriplets
+import hackerrank.compareTriplets
 import kotlin.test.assertContentEquals
 
 class `4-compare-triplets-test` {

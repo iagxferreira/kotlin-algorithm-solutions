@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
-import kotlin.hackerrank.arraySum
+import hackerrank.arraySum
 
 class `3-array-sum-test` {
 

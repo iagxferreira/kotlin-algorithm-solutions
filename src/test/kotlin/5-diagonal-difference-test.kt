@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test
-import kotlin.hackerrank.diagonalDifference
+import hackerrank.diagonalDifference
 import kotlin.test.assertEquals
 
 class `5-diagonal-difference-test` {

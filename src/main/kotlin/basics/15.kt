@@ -1,6 +1,6 @@
 package basics
 
-import java.util.Scanner
+import java.util.*
 
 /**
  * Crie um programa que leia o número de dias trabalhados em um mês e mostre o

@@ -1,4 +1,4 @@
-package kotlin.hackerrank
+package hackerrank
 
 /**
  *  crie uma função que receba dois arrays a e compare seus valores, atribuindo seus resultados a um terceiro array

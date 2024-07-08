@@ -1,6 +1,6 @@
 package basics
 
-import java.util.Scanner
+import java.util.*
 
 /**
  * A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva

@@ -1,4 +1,4 @@
-package kotlin.hackerrank
+package hackerrank
 
 // crie uma função que soma os valores de um array
 fun arraySum(list: List<Int> ): Int {
