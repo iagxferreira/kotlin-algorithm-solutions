@@ -1,11 +1,11 @@
 package fundamentals.javareflections;
 
-public class ExampleClass {
+public class ExampleRecord {
 
     private final String exampleField;
     private final String otherExampleField;
 
-    public ExampleClass(String exampleField, String otherExampleField){
+    public ExampleRecord(String exampleField, String otherExampleField){
         this.exampleField = exampleField;
         this.otherExampleField = otherExampleField;
     }

@@ -3,6 +3,7 @@ package fundamentals.javareflections;
 import java.util.Arrays;
 
 public class Program {
+
     public static void main(String[] args) throws IllegalAccessException {
         Arrays.stream(ExampleClass.class.getMethods()).forEach(System.out::println);
 
@@ -13,5 +14,7 @@ public class Program {
 
         System.out.println("After: " + example.getExampleField());
         ReflectionUtils.getNullProperties(example);
+
     }
+
 }
