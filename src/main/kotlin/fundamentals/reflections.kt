@@ -1,4 +1,4 @@
-package fundamentals.reflections
+package fundamentals
 
 data class ExampleDataClass(
     val name: String, var enabled: Boolean)
